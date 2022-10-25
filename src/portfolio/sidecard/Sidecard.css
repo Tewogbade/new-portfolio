@@ -1,0 +1,212 @@
+.allcontent {
+  display: flex;
+  background-color: #efede0;
+}
+.profile {
+  background-color: #8aa899;
+  justify-content: center;
+  width: 450px;
+  height: 800px;
+  padding-top: 7%;
+}
+.profile img {
+  height: 244px;
+  width: 244px;
+}
+.allcontent .profile .text {
+  width: 450px;
+}
+.text h3 {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 800;
+  color: #f1bc20;
+}
+
+.profile .text p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.copyright p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #000000;
+  padding: 10px 0;
+}
+
+#lasttext p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+}
+.text .copyright p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+}
+.links a {
+  margin: 0 10px;
+}
+
+.text .links {
+  display: flex;
+  justify-content: center;
+  column-gap: 1px;
+  margin-bottom: 20px;
+}
+.links img {
+  width: 25px;
+  height: 25px;
+}
+
+.cards {
+  justify-content: center;
+  display: inline-grid;
+  grid-template-columns: 40% 40%;
+  column-gap: 5rem;
+  row-gap: 5rem;
+  margin: 4rem 0;
+}
+.card a {
+  text-decoration: none;
+  color: #f1bc20;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .cards {
+    display: block;
+    margin: 3rem 3rem;
+  }
+  .card {
+    margin-bottom: 4rem;
+  }
+  .profile {
+    width: 350px;
+    height: 700px;
+    padding-top: 5%;
+  }
+  .allcontent .profile .text {
+    width: 350px;
+  }
+  .links img {
+    width: 22px;
+    height: 22px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .allcontent {
+    display: block;
+    background-color: #efede0;
+  }
+  .profile {
+    background-color: #8aa899;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 7%;
+  }
+  .profile img {
+    height: 160px;
+    width: 160px;
+  }
+  .allcontent .profile .text {
+    width: 100%;
+  }
+  .text h3 {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .profile .text p {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .links a {
+    margin: 0 10px;
+  }
+
+  .text .links {
+    column-gap: 1px;
+    margin-bottom: 20px;
+  }
+  .links img {
+    width: 15px;
+    height: 15px;
+  }
+  .cards {
+    justify-content: center;
+    display: block;
+    margin: 0;
+    padding: 4rem 3rem;
+  }
+  .card {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .allcontent {
+    display: block;
+    background-color: #efede0;
+  }
+  .profile {
+    background-color: #8aa899;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 7%;
+  }
+  .profile img {
+    height: 144px;
+    width: 144px;
+  }
+  .allcontent .profile .text {
+    width: 100%;
+  }
+  .text h3 {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .profile .text p {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .links a {
+    margin: 0 10px;
+  }
+
+  .text .links {
+    column-gap: 1px;
+    margin-bottom: 20px;
+  }
+  .links img {
+    width: 15px;
+    height: 15px;
+  }
+  .cards {
+    justify-content: center;
+    display: block;
+    margin: 0;
+    padding: 4rem 3rem;
+  }
+  .card {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+}

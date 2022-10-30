@@ -16,6 +16,7 @@ function App() {
         <Sidecard />
         <Navbar />
         <Resume />
+        <Footer />
       </div>
     </>
   );

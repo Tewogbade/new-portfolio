@@ -24,20 +24,27 @@ h6 {
 
 @media (min-width: 768px) and (max-width: 1199px) {
   #footer {
-    padding: 2rem 7rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #8aa899;
+    padding: 2rem 3rem;
     text-align: start;
   }
   #middle {
+    border-left: 1px solid #ffff;
+    border-right: 1px solid #ffff;
     padding: 0 3rem;
   }
   h6 {
-    font-size: 17px;
+    color: #f1bc20;
+    font-size: 16px;
   }
   #footer p {
-    font-size: 20px;
+    color: #ffff;
+    font-size: 16px;
   }
-  .icontext {
-    display: flex;
+  .mobile {
+    display: none;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {

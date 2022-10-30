@@ -1,8 +1,7 @@
 import React from "react";
 import "../navbar/Navbar.css";
 import tewoNavphoto from "../../images/tewonav.png";
-import logo from "../../images/logo.png";
-import cv from "../../images/JavaScript.docx";
+import cv from "../../images/resume.pdf";
 
 const Navbar = () => {
   return (
@@ -41,7 +40,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a href={cv}>
+                <a href={cv} target="_blank">
                   <button type="button" class="btn btn-outline-dark">
                     Download CV
                   </button>

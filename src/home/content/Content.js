@@ -1,12 +1,12 @@
 import React from "react";
 import tewoPhoto from "../../images/tnew.png";
 import "../content/Content.css";
-import cv from "../../images/JavaScript.docx";
-import TypeWriterEffect from "react-typewriter-effect";
+import cv from "../../images/resume.pdf";
 import twitter from "../../images/twitter.svg";
 import mail from "../../images/envelope.svg";
 import linkedin from "../../images/linkedin.svg";
 import github from "../../images/github.svg";
+import Typewriter from "typewriter-effect";
 
 const Content = () => {
   return (
@@ -19,23 +19,16 @@ const Content = () => {
           <h5>Hello World, I am</h5>
           <h1> Tewogbade</h1>
           <img className="" src="" alt="" />
-          <div className="typewriter">
-            <TypeWriterEffect
-              className="typefont"
-              textStyle={{
-                fontFamily: "Montserrat",
-                color: "#000000",
-                fontWeight: 400,
-                fontSize: "2.5rem",
-                justifyContent: "center",
+
+          <h2 className="tyewriter">
+            <Typewriter
+              options={{
+                strings: ["Developer", "Architect", "Freelancer"],
+                autoStart: true,
+                loop: true,
               }}
-              startDelay={0}
-              cursorColor="#3F3D56"
-              multiText={["Developer", "Architect", "Designer", "Freelancer"]}
-              multiTextDelay={2000}
-              typeSpeed={50}
             />
-          </div>
+          </h2>
 
           <div id="socials">
             <a href="https://twitter.com/mr_tewogbade" target="_blank">

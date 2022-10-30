@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Moul&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-/* #allcontent {
-  position: relative;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap");
 
 #imagetext {
   display: flex;
@@ -11,6 +9,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100%;
 }
 #imagetext img {
   margin: 0 3rem;
@@ -20,7 +19,7 @@
   padding-top: 0;
   margin-top: 0;
   font-family: "Moul", cursive;
-  font-size: 95px;
+  font-size: 70px;
   letter-spacing: 2%;
   color: #5c6e58;
 }
@@ -37,20 +36,25 @@
 .text {
   width: 100%;
   margin-top: 10%;
-  /* padding: 0 5rem; */
 }
-#hello {
-  text-align: end;
-  margin-right: 15rem;
-  margin-bottom: 0;
+#socials {
+  display: flex;
+}
+
+#socials img {
+  margin: 30px 10px;
+  width: 25px;
+  height: 25px;
 }
 
 #allcontent button {
+  font-family: "Montserrat", sans-serif;
   border-width: 2px;
   font-weight: 500;
   margin-top: 1rem;
   padding: 10px 1rem;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 25px;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -58,69 +62,67 @@
     padding-right: 2rem;
     font-size: 15px;
   }
-
   #imagetext img {
     margin: 0 5px;
     width: 290px;
   }
+
   .text h1 {
     font-size: 55px;
   }
   .text p {
     font-size: 13px;
   }
-  #hello {
-    text-align: end;
-    margin-right: 10rem;
-    margin-bottom: 0;
-  }
 
   .text {
     margin-top: 5%;
     padding: 0 1rem;
+  }
+
+  #socials img {
+    margin: 30px 10px;
+    width: 25px;
+    height: 25px;
   }
   #allcontent button {
     border-width: 2px;
     font-weight: 500;
     margin-bottom: 1rem;
     padding: 5px 15px;
-    font-weight: 600;
+    font-weight: 500;
+  }
+  .typefont {
+    color: blue;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
-  #imagetext .text p {
+  #imagetext .text {
+    margin: auto;
     padding-right: 0;
+    height: 70vh;
   }
-  #imagetext img {
+  .text h5 {
+    padding-top: 10%;
+  }
+  #tewoPhoto {
     display: none;
   }
   #imagetext {
+    margin: auto;
     display: inline;
     text-align: start;
-    padding: 1rem 0;
   }
   .text h1 {
-    padding-top: 0;
-    margin-top: 0;
-    font-size: 30px;
+    font-family: "Moul", cursive;
+    font-size: 60px;
     letter-spacing: 0;
     color: #5c6e58;
-  }
-  .text p {
-    font-size: 13px;
-    letter-spacing: 4%;
-    font-weight: 0;
-  }
-  .text {
-    margin-top: 5%;
-    padding: 0;
-  }
-  #hello {
-    padding-top: 2rem;
     text-align: center;
-    margin-right: 0;
-    margin-bottom: 0;
   }
+  #socials {
+    justify-content: center;
+  }
+
   #allcontent .text {
     text-align: center;
     padding: 0 10px;
@@ -133,44 +135,47 @@
     border-width: 2px;
     margin-top: 1rem;
     padding: 5px 10px;
-    font-weight: 500;
+    font-weight: 550;
     margin-bottom: 3rem;
-    font-size: 12px;
+    font-size: 25px;
   }
 }
 
 @media (max-width: 576px) {
-  #imagetext .text p {
+  #imagetext .text {
+    margin: auto;
     padding-right: 0;
+    height: 90vh;
   }
-  #imagetext img {
+  .text h5 {
+    padding-top: 30%;
+  }
+  #tewoPhoto {
     display: none;
   }
   #imagetext {
+    margin: auto;
     display: inline;
     text-align: start;
-    padding: 1rem 0;
   }
   .text h1 {
-    padding-top: 0;
-    margin-top: 0;
     font-family: "Moul", cursive;
-    font-size: 30px;
+    font-size: 45px;
     letter-spacing: 0;
     color: #5c6e58;
+    text-align: center;
+  }
+  #socials {
+    justify-content: center;
   }
   .text p {
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
     letter-spacing: 4%;
     font-weight: 0;
-  }
-  #hello {
-    padding-top: 2rem;
     text-align: center;
-    margin-right: 0;
-    margin-bottom: 0;
   }
+
   #allcontent .text {
     text-align: center;
     padding: 0 10px;
@@ -185,6 +190,6 @@
     padding: 5px 10px;
     font-weight: 500;
     margin-bottom: 3rem;
-    font-size: 12px;
+    font-size: 22px;
   }
 }

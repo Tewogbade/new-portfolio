@@ -23,23 +23,28 @@ const Card = () => {
             <h3> Tewogbade S. Tella</h3>
             <p> Web Developer | Architect</p>
             <div className="links">
-              <a href="https://twitter.com/mr_tewogbade">
+              <a href="https://twitter.com/mr_tewogbade" target="_blank">
                 <img src={twitter} alt="" />
               </a>
-              <a href="mailto:tewogbade3008@gmail.com">
+              <a href="mailto:tewogbade3008@gmail.com" target="_blank">
                 <img src={mail} alt="" />
               </a>
-              <a href="https://www.linkedin.com/in/tewogbade-fatai-20662719a/">
+              <a
+                href="https://www.linkedin.com/in/tewogbade-fatai-20662719a/"
+                target="_blank"
+              >
                 <img src={linkedin} alt="" />
               </a>
-              <a href="https://github.com/Tewogbade">
+              <a href="https://github.com/Tewogbade" target="_blank">
                 <img src={github} alt="" />
               </a>
             </div>
             <div id="lasttext">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deserunt quisquam, mollitia totam architecto animi nihil?
+                A Web Developer and an Architect with strong analytical,
+                management and communication skills, who continuously seeks
+                opportunities to expand his knowledge and develop hard skills in
+                a dynamic and professional environment.
               </p>
             </div>
             <div className="copyright">
@@ -47,12 +52,17 @@ const Card = () => {
             </div>
           </div>
         </div>
+
         <div className="cards">
           <div className="card">
             <img src={room} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-text">ROOM</h5>
+              <p>
+                <i>Furniture and life style</i>
+              </p>
               <p>Training project.</p>
+              <p>HTML, CSS, JavaScript</p>
               <a href="https://room-web.vercel.app/" target="_blank">
                 View Website <img src={arrow} alt="" />{" "}
               </a>
@@ -64,10 +74,14 @@ const Card = () => {
           <div className="card">
             <img src={timer} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-text">Countdown Timer</h5>
+              <h5 className="card-text">COUNTDOWN TIMER</h5>
+              <p>
+                <i>Launchig Soon Landing Page</i>
+              </p>
               <p>Freelance project</p>
+              <p>HTML, CSS, JavaScript</p>
               <a
-                href="https://countdown-timer-ebon.vercel.app/"
+                href="https://countdown-timer-ebon.vercel.app/ "
                 target="_blank"
               >
                 View Website <img src={arrow} alt="" />
@@ -81,8 +95,12 @@ const Card = () => {
             <img src={nasim} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-text">NASIMS</h5>
+              <p>
+                <i>Finace and Management</i>
+              </p>
               <p>Training project.</p>
-              <a href="https://nasims-project.vercel.app/">
+              <p>HTML, CSS, Bootstrap </p>
+              <a href="https://nasims-project.vercel.app/" target="_blank">
                 View Website <img src={arrow} alt="" />{" "}
               </a>
             </div>
@@ -94,8 +112,12 @@ const Card = () => {
             <img src={meet} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-text">MEET</h5>
+              <p>
+                <i>Furniture and life style</i>
+              </p>
               <p>Training project</p>
-              <a href="https://meet-web-three.vercel.app/" target="_blank">
+              <p>React JS, CSS </p>
+              <a href="https://meet-react-eta.vercel.app/" target="_blank">
                 View Website <img src={arrow} alt="" />{" "}
               </a>
             </div>
@@ -107,8 +129,15 @@ const Card = () => {
             <img src={portfolio} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-text">PORTFOLIO</h5>
+              <p>
+                <i>Furniture and life style</i>
+              </p>
               <p>Freelance project</p>
-              <a href="#">
+              <p>React Js, Bootstrap </p>
+              <a
+                href="https://new-portfolio-teal-kappa.vercel.app/"
+                target="_blank"
+              >
                 View Website <img src={arrow} alt="" />{" "}
               </a>
             </div>
@@ -120,8 +149,12 @@ const Card = () => {
             <img src={portfolio2} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-text">PORTFOLIO</h5>
+              <p>
+                <i>Furniture and life style</i>
+              </p>
               <p>Freelance project</p>
-              <a href="#">
+              <p>HTML, CSS, </p>
+              <a href="#" target="_blank">
                 View Website <img src={arrow} alt="" />{" "}
               </a>
             </div>

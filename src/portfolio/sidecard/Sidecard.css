@@ -10,8 +10,8 @@
   padding-top: 7%;
 }
 .profile img {
-  height: 244px;
-  width: 244px;
+  height: 270px;
+  width: 270px;
 }
 .allcontent .profile .text {
   width: 450px;
@@ -19,7 +19,7 @@
 .text h3 {
   display: block;
   font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   font-weight: 800;
   color: #f1bc20;
@@ -42,7 +42,7 @@
 
 #lasttext p {
   font-family: "Montserrat", sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   color: #000000;
 }
@@ -70,9 +70,9 @@
 .cards {
   justify-content: center;
   display: inline-grid;
-  grid-template-columns: 40% 40%;
-  column-gap: 5rem;
-  row-gap: 5rem;
+  grid-template-columns: 45% 45%;
+  column-gap: 3rem;
+  row-gap: 3rem;
   margin: 4rem 0;
 }
 .card a {
@@ -81,20 +81,24 @@
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
+  text-align: start;
+}
+.card p {
+  margin: 5px;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .cards {
     display: block;
-    margin: 3rem 3rem;
+    margin: 2rem 2rem;
   }
   .card {
     margin-bottom: 4rem;
+    text-align: start;
   }
   .profile {
-    width: 350px;
-    height: 700px;
+    width: 600px;
+    height: 100%;
     padding-top: 5%;
   }
   .allcontent .profile .text {
@@ -118,8 +122,8 @@
     padding-top: 7%;
   }
   .profile img {
-    height: 160px;
-    width: 160px;
+    height: 210px;
+    width: 210px;
   }
   .allcontent .profile .text {
     width: 100%;
@@ -153,7 +157,6 @@
     padding: 4rem 3rem;
   }
   .card {
-    text-align: center;
     margin-bottom: 4rem;
   }
 }
@@ -171,8 +174,8 @@
     padding-top: 7%;
   }
   .profile img {
-    height: 144px;
-    width: 144px;
+    height: 200px;
+    width: 200px;
   }
   .allcontent .profile .text {
     width: 100%;
@@ -203,10 +206,10 @@
     justify-content: center;
     display: block;
     margin: 0;
-    padding: 4rem 3rem;
+    padding: 3rem 2rem;
   }
   .card {
-    text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+    height: 30rem;
   }
 }

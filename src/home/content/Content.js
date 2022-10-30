@@ -1,27 +1,65 @@
 import React from "react";
 import tewoPhoto from "../../images/tnew.png";
 import "../content/Content.css";
+import cv from "../../images/JavaScript.docx";
+import TypeWriterEffect from "react-typewriter-effect";
+import twitter from "../../images/twitter.svg";
+import mail from "../../images/envelope.svg";
+import linkedin from "../../images/linkedin.svg";
+import github from "../../images/github.svg";
 const Content = () => {
   return (
     <div id="allcontent">
       <div id="imagetext">
         <div className="image">
-          <img src={tewoPhoto} alt="" />
+          <img id="tewoPhoto" src={tewoPhoto} alt="" />
         </div>
         <div className="text">
-          <p id="hello">Hello World, I am</p>
-          <h1>Tewogbade</h1>
-          <p>
-            A Web Developer and an Architect with strong analytical, management
-            and communication skills, who continuously seeks opportunities to
-            expand his knowledge and develop hard skills in a dynamic and
-            professional environment. I have 1 years of progressive internship
-            experience in both front and and developmet coupled with 5 years
-            experience in architecture and construction.
-          </p>
-          <button type="button" class="btn btn-outline-dark">
-            Download CV
-          </button>
+          <h5>Hello World, I am</h5>
+          <h1> Tewogbade</h1>
+          <img className="" src="" alt="" />
+          <div className="typewriter">
+            <TypeWriterEffect
+              className="typefont"
+              textStyle={{
+                fontFamily: "Montserrat",
+                color: "#000000",
+                fontWeight: 400,
+                fontSize: "2.5rem",
+                justifyContent: "center",
+              }}
+              startDelay={0}
+              cursorColor="#3F3D56"
+              multiText={["Developer ", "Architect "]}
+              multiTextDelay={2000}
+              typeSpeed={50}
+            />
+          </div>
+          {/* <h2>DEVELOPER | ARCHITECT</h2> */}
+
+          <div id="socials">
+            <a href="https://twitter.com/mr_tewogbade" target="_blank">
+              <img src={twitter} alt="" />
+            </a>
+            <a href="mailto:tewogbade3008@gmail.com" target="_blank">
+              <img src={mail} alt="" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/tewogbade-fatai-20662719a/"
+              target="_blank"
+            >
+              <img src={linkedin} alt="" />
+            </a>
+            <a href="https://github.com/Tewogbade" target="_blank">
+              <img src={github} alt="" />
+            </a>
+          </div>
+
+          <a href={cv} target="_blank">
+            <button type="button" class="btn btn-outline-dark lg">
+              Download CV
+            </button>
+          </a>
         </div>
       </div>
     </div>

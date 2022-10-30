@@ -16,7 +16,10 @@ h6 {
 }
 #footer p {
   color: #ffff;
-  font-size: 15px;
+  font-size: 20px;
+}
+.mobile {
+  display: none;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -31,37 +34,56 @@ h6 {
     font-size: 17px;
   }
   #footer p {
-    font-size: 12px;
+    font-size: 20px;
+  }
+  .icontext {
+    display: flex;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
   #footer {
-    padding: 13px 1rem;
+    display: flex;
+    padding: 1rem 0;
     text-align: start;
   }
-  #middle {
-    padding: 0 2rem;
+  .mobile {
+    display: block;
   }
-  h6 {
-    font-size: 14px;
+  .title {
+    display: none;
   }
-  #footer p {
-    font-size: 10px;
+  .icontext {
+    display: flex;
+    margin: 20px 0;
+  }
+  .icontext p {
+    margin: 0;
+  }
+  .icontext img {
+    margin-right: 1rem;
   }
 }
 
 @media (max-width: 576px) {
   #footer {
-    padding: 13px 0;
+    display: flex;
+    padding: 1rem 0;
     text-align: start;
   }
-  #middle {
-    padding: 0 1rem;
+  .mobile {
+    display: block;
   }
-  h6 {
-    font-size: 13px;
+  .title {
+    display: none;
   }
-  #footer p {
-    font-size: 10px;
+  .icontext {
+    display: flex;
+    margin: 20px 0;
+  }
+  .icontext p {
+    margin: 0;
+  }
+  .icontext img {
+    margin-right: 2rem;
   }
 }

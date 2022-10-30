@@ -1,6 +1,8 @@
 import React from "react";
 import "../navbar/Navbar.css";
 import tewoNavphoto from "../../images/tewonav.png";
+import logo from "../../images/logo.png";
+import cv from "../../images/JavaScript.docx";
 
 const Navbar = () => {
   return (
@@ -8,6 +10,8 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg ">
         <div className="imagediv container-fluid">
           <img src={tewoNavphoto} className="" alt="" />
+          {/* <img src={logo} className="" alt="" />
+          <h1>TEWO</h1> */}
           <button
             className="navbar-toggler"
             type="button"
@@ -37,9 +41,11 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <button type="button" class="btn btn-outline-dark">
-                  Download CV
-                </button>
+                <a href={cv}>
+                  <button type="button" class="btn btn-outline-dark">
+                    Download CV
+                  </button>
+                </a>
               </li>
             </ul>
           </div>

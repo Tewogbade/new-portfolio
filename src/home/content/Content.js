@@ -7,6 +7,7 @@ import twitter from "../../images/twitter.svg";
 import mail from "../../images/envelope.svg";
 import linkedin from "../../images/linkedin.svg";
 import github from "../../images/github.svg";
+
 const Content = () => {
   return (
     <div id="allcontent">
@@ -30,12 +31,11 @@ const Content = () => {
               }}
               startDelay={0}
               cursorColor="#3F3D56"
-              multiText={["Developer ", "Architect "]}
+              multiText={["Developer", "Architect", "Designer", "Freelancer"]}
               multiTextDelay={2000}
               typeSpeed={50}
             />
           </div>
-          {/* <h2>DEVELOPER | ARCHITECT</h2> */}
 
           <div id="socials">
             <a href="https://twitter.com/mr_tewogbade" target="_blank">

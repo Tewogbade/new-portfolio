@@ -99,7 +99,7 @@
   #imagetext .text {
     margin: auto;
     padding-right: 0;
-    height: 70vh;
+    /* height: 70vh; */
   }
   .text h5 {
     padding-top: 10%;
@@ -145,7 +145,7 @@
   #imagetext .text {
     margin: auto;
     padding-right: 0;
-    height: 90vh;
+    /* height: 90vh; */
   }
   .text h5 {
     padding-top: 30%;

@@ -57,7 +57,7 @@ const Card = () => {
           <div className="card">
             <img src={room} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-text">ROOM</h5>
+              <h4 className="card-text">ROOM</h4>
               <p>
                 <i>Furniture and life style</i>
               </p>
@@ -74,7 +74,7 @@ const Card = () => {
           <div className="card">
             <img src={timer} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-text">COUNTDOWN TIMER</h5>
+              <h4 className="card-text">COUNTDOWN TIMER</h4>
               <p>
                 <i>Launchig Soon Landing Page</i>
               </p>
@@ -94,7 +94,7 @@ const Card = () => {
           <div className="card">
             <img src={nasim} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-text">NASIMS</h5>
+              <h4 className="card-text">NASIMS</h4>
               <p>
                 <i>Finace and Management</i>
               </p>
@@ -111,7 +111,7 @@ const Card = () => {
           <div className="card">
             <img src={meet} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-text">MEET</h5>
+              <h4 className="card-text">MEET</h4>
               <p>
                 <i>Furniture and life style</i>
               </p>
@@ -128,11 +128,11 @@ const Card = () => {
           <div className="card">
             <img src={portfolio} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-text">PORTFOLIO</h5>
+              <h4 className="card-text">PORTFOLIO</h4>
               <p>
                 <i>Furniture and life style</i>
               </p>
-              <p>Freelance project</p>
+              <p>Personal project</p>
               <p>React Js, Bootstrap </p>
               <a
                 href="https://new-portfolio-teal-kappa.vercel.app/"
@@ -148,12 +148,12 @@ const Card = () => {
           <div className="card">
             <img src={portfolio2} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-text">PORTFOLIO</h5>
+              <h4 className="card-text">GUESS MY NUMBER</h4>
               <p>
-                <i>Furniture and life style</i>
+                <i>Game</i>
               </p>
-              <p>Freelance project</p>
-              <p>HTML, CSS, </p>
+              <p>Training project.</p>
+              <p>HTML, CSS, JavaScript </p>
               <a href="#" target="_blank">
                 View Website <img src={arrow} alt="" />{" "}
               </a>

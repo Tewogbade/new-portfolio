@@ -49,8 +49,8 @@ const Resume = () => {
         <div className="resume">
           <h1> Tewogbade S. Fatai</h1>
           <h4> Web Developer | Architect</h4>
-          <h4>tewogbade3008@gmail</h4>
-          <p>08189733799, 08135201213</p>
+          <p>tewogbade3008@gmail</p>
+          <p id="phoneno">08189733799, 08135201213</p>
 
           <div className="pair">
             <div className="left">

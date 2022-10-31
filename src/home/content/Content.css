@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Moul&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap");
 body {
   width: 100%;
 }
@@ -16,7 +14,7 @@ body {
 }
 #imagetext img {
   margin: 0 3rem;
-  width: 450px;
+  width: 420px;
 }
 .text h1 {
   padding-top: 0;
@@ -27,11 +25,12 @@ body {
   color: #5c6e58;
 }
 .text p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Harmattan", sans-serif;
   font-size: 20px;
   font-weight: 0;
 }
 #imagetext .text p {
+  font-family: "Harmattan", sans-serif;
   padding-right: 6rem;
   font-size: 18px;
 }
@@ -51,18 +50,63 @@ body {
 }
 
 #allcontent button {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Harmattan", sans-serif;
   border-width: 2px;
   font-weight: 500;
   margin-top: 1rem;
   padding: 5px 15px;
   font-weight: 500;
   font-size: 25px;
+  color: #5c6e58;
 }
+
+.button {
+  border-radius: 4px;
+  background-color: #5c6e58;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .tyewriter {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Harmattan", sans-serif;
   font-weight: 400;
   font-size: 2.5rem;
+}
+.dfdfd {
+  justify-content: start;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -71,14 +115,15 @@ body {
     font-size: 15px;
   }
   #imagetext img {
-    margin: 0 5px;
-    width: 290px;
+    margin: 0 2rem;
+    width: 300px;
   }
 
   .text h1 {
-    font-size: 55px;
+    font-size: 57px;
   }
   .text p {
+    font-family: "Harmattan", sans-serif;
     font-size: 13px;
   }
 
@@ -102,6 +147,9 @@ body {
   .typefont {
     color: blue;
   }
+}
+.dfdfd {
+  display: flex;
 }
 @media (min-width: 576px) and (max-width: 768px) {
   #imagetext .text {
@@ -147,6 +195,9 @@ body {
     margin-bottom: 3rem;
     font-size: 25px;
   }
+  .dfdfd {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 576px) {
@@ -156,10 +207,10 @@ body {
   #imagetext .text {
     margin: auto;
     padding-right: 0;
-    height: 90vh;
+    height: 70vh;
   }
   .text h5 {
-    padding-top: 30%;
+    padding-top: 20%;
   }
   #tewoPhoto {
     display: none;
@@ -170,7 +221,6 @@ body {
     text-align: start;
   }
   .text h1 {
-    font-family: "Moul", cursive;
     font-size: 45px;
     letter-spacing: 0;
     color: #5c6e58;
@@ -180,7 +230,7 @@ body {
     justify-content: center;
   }
   .text p {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Harmattan", sans-serif;
     font-size: 13px;
     letter-spacing: 4%;
     font-weight: 0;
@@ -202,5 +252,8 @@ body {
     font-weight: 500;
     margin-bottom: 3rem;
     font-size: 22px;
+  }
+  .dfdfd {
+    justify-content: center;
   }
 }

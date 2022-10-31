@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap");
+
+.active {
+  color: red;
+}
 #navbarNav {
   justify-content: end;
 }

@@ -10,7 +10,7 @@ const Resume = () => {
   return (
     <>
       <div className="allcontent">
-        <div className="profile" id="about">
+        <div className="profile">
           <img src={tewocardPhoto} alt="" />
           <div className="text">
             <h3> Tewogbade S. Fatai</h3>
@@ -47,11 +47,7 @@ const Resume = () => {
         </div>
 
         <div className="resume">
-          <h1> Tewogbade S. Fatai</h1>
-          <h4> Web Developer | Architect</h4>
-          <p id="email">tewogbade3008@gmail</p>
-          <p id="phoneno">08189733799, 08135201213</p>
-
+          <h1> RESUME</h1>
           <div className="pair">
             <div className="left">
               <h2>EDUCATION-</h2>
@@ -89,7 +85,7 @@ const Resume = () => {
                 services and databases.
               </h6>
               <h4>
-                Lead Architect <span> Atrium Architecture and Designs.</span>
+                Lead Architect <span> Atrium Architecture and Designs</span>
               </h4>
               <p> July 2022 - till date</p>
               <h6>
@@ -100,7 +96,7 @@ const Resume = () => {
               </h6>
 
               <h4>
-                Design Architect <span> Luca Visage – Scavolini.</span>
+                Design Architect <span> Luca Visage – Scavolini</span>
               </h4>
               <p> June 202 - till date</p>
               <h6>

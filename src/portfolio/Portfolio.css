@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andika:wght@700&display=swap");
+
+.portfolio {
+  background-color: #efede0;
+}
+.portfolio h1 {
+  color: #5c6e58;
+  font-family: "Andika", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.cards {
+  justify-content: center;
+  display: inline-grid;
+  grid-template-columns: 30% 30% 30%;
+  column-gap: 3rem;
+  row-gap: 3rem;
+  margin: 1rem 1rem 4rem;
+}
+.card a {
+  text-decoration: none;
+  color: #f1bc20;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: start;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .cards {
+    justify-content: center;
+    display: inline-grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    margin: 1rem 1rem 4rem;
+  }
+  .card {
+    margin-bottom: 4rem;
+    text-align: start;
+  }
+  .profile {
+    width: 600px;
+    height: 100%;
+    padding-top: 5%;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .cards {
+    justify-content: center;
+    display: block;
+    margin: 1rem 1rem 4rem;
+  }
+  .card {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .cards {
+    justify-content: center;
+    display: block;
+    margin: 1rem 1rem 4rem;
+  }
+  .card {
+    margin-bottom: 2rem;
+  }
+}

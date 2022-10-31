@@ -1,3 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika:wght@700&display=swap");
+.allcontent {
+  display: flex;
+  background-color: #efede0;
+}
+.profile {
+  background-color: #8aa899;
+  justify-content: center;
+  width: 450px;
+  height: 800px;
+  padding-top: 7%;
+}
+.profile img {
+  height: 270px;
+  width: 270px;
+}
+
+.text h3 {
+  display: block;
+  font-family: "Harmattan", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #f1bc20;
+}
+
+.profile .text p {
+  font-family: "Harmattan", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.copyright p {
+  font-family: "Harmattan", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #000000;
+  padding: 10px 0;
+}
+
+#lasttext p {
+  font-family: "Harmattan", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+.text .copyright p {
+  font-family: "Harmattan", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+}
+.links a {
+  margin: 0 10px;
+}
+
+.text .links {
+  display: flex;
+  justify-content: center;
+  column-gap: 1px;
+  margin-bottom: 20px;
+}
+.links img {
+  width: 25px;
+  height: 25px;
+}
+
 .resume {
   padding-top: 2rem;
   margin-left: 3rem;
@@ -5,6 +73,13 @@
   padding-right: 1rem;
   border-left: 20px solid #f1bc20;
   background-color: #fff;
+}
+.resume h1 {
+  color: #5c6e58;
+  font-family: "Andika", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 1rem;
 }
 .profile .text {
   width: 100%;
@@ -37,28 +112,28 @@
   row-gap: 20px;
   justify-content: center;
 }
-.resume h1 {
-  font-size: 40px;
-  font-weight: 600;
-  color: #8aa899;
-}
+
 .left h2 {
   font-size: 20px;
   font-weight: 500;
   color: #f1bc20;
+  font-family: "Harmattan", sans-serif;
 }
 .right h3 {
   font-size: 20px;
   font-weight: 500;
   color: #f1bc20;
+  font-family: "Harmattan", sans-serif;
 }
 .right p {
   margin: 0;
+  font-family: "Harmattan", sans-serif;
 }
 .right h4 {
   margin-bottom: 0;
   font-size: 20px;
   font-weight: 600;
+  font-family: "Harmattan", sans-serif;
 }
 .right h6 {
   margin-top: 10px;
@@ -66,6 +141,7 @@
   margin-bottom: 2rem;
   font-size: 18px;
   font-weight: 400;
+  font-family: "Harmattan", sans-serif;
 }
 .right span {
   border-left: 2px solid #f1bc20;
@@ -141,6 +217,17 @@
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
+  .profile {
+    padding-right: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .profile .text {
+    text-align: center;
+  }
+  .allcontent {
+    display: block;
+  }
   .resume {
     margin-left: 0;
     width: 100%;
@@ -199,6 +286,14 @@
 }
 
 @media (max-width: 576px) {
+  .profile {
+    padding-right: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .allcontent {
+    display: block;
+  }
   #about {
     display: none;
   }
@@ -209,14 +304,14 @@
     border-left: 0;
   }
   .pair {
-    display: flex;
+    display: block;
     justify-content: center;
     margin-bottom: 2rem;
   }
 
   .left {
     width: 50%;
-    text-align: center;
+    text-align: start;
   }
   .right {
     width: 100%;

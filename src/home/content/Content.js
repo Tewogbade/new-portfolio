@@ -7,6 +7,7 @@ import mail from "../../images/envelope.svg";
 import linkedin from "../../images/linkedin.svg";
 import github from "../../images/github.svg";
 import Typewriter from "typewriter-effect";
+import { Link } from "react-router-dom";
 
 const Content = () => {
   return (
@@ -19,16 +20,22 @@ const Content = () => {
           <h5>Hello World, I am</h5>
           <h1> Tewogbade</h1>
           <img className="" src="" alt="" />
-
-          <h2 className="tyewriter">
-            <Typewriter
-              options={{
-                strings: ["Developer", "Architect", "Freelancer"],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-          </h2>
+          <div className="dfdfd">
+            <h2 className="tyewriter">
+              <Typewriter
+                options={{
+                  strings: [
+                    "A Developer",
+                    "An Architect",
+                    "A Designer",
+                    "A Freelancer",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </h2>
+          </div>
 
           <div id="socials">
             <a href="https://twitter.com/mr_tewogbade" target="_blank">
@@ -48,11 +55,11 @@ const Content = () => {
             </a>
           </div>
 
-          <a href={cv} target="_blank">
-            <button type="button" class="btn btn-outline-dark lg">
-              Download CV
+          <Link to="/resume">
+            <button class="button">
+              <span>View Resume </span>
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

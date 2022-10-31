@@ -2,6 +2,7 @@ import React from "react";
 import "../navbar/Navbar.css";
 import tewoNavphoto from "../../images/tewonav.png";
 import cv from "../../images/resume.pdf";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -25,26 +26,26 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active " aria-current="page" href="#">
+                <Link className="nav-link active" aria-current="page" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link " href="#">
+                <Link className="nav-link " to="/portfolio">
                   Portfolio
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link " href="#">
+                <Link className="nav-link " to="/resume">
                   Resume
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href={cv} target="_blank">
+                <Link to={cv} target="_blank">
                   <button type="button" class="btn btn-outline-dark">
                     Download CV
                   </button>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

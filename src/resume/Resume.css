@@ -194,9 +194,6 @@
 }
 
 @media (max-width: 576px) {
-  body {
-    width: 100%;
-  }
   #about {
     display: none;
   }

@@ -104,9 +104,6 @@ body {
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
-  body {
-    width: 100%;
-  }
   #imagetext .text {
     margin: auto;
     padding-right: 0;

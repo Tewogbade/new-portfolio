@@ -20,7 +20,7 @@ const Card = () => {
         <div className="profile">
           <img src={tewocardPhoto} alt="" />
           <div className="text">
-            <h3> Tewogbade S. Tella</h3>
+            <h3> Tewogbade S. Fatai</h3>
             <p> Web Developer | Architect</p>
             <div className="links">
               <a href="https://twitter.com/mr_tewogbade" target="_blank">

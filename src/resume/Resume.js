@@ -13,7 +13,7 @@ const Resume = () => {
         <div className="profile" id="about">
           <img src={tewocardPhoto} alt="" />
           <div className="text">
-            <h3> Tewogbade S. Tella</h3>
+            <h3> Tewogbade S. Fatai</h3>
             <p> Web Developer | Architect</p>
             <div className="links">
               <a href="https://twitter.com/mr_tewogbade" target="_blank">
@@ -49,7 +49,7 @@ const Resume = () => {
         <div className="resume">
           <h1> Tewogbade S. Fatai</h1>
           <h4> Web Developer | Architect</h4>
-          <p>tewogbade3008@gmail</p>
+          <p id="email">tewogbade3008@gmail</p>
           <p id="phoneno">08189733799, 08135201213</p>
 
           <div className="pair">

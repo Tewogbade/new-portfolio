@@ -72,6 +72,9 @@ h6 {
 }
 
 @media (max-width: 576px) {
+  body {
+    width: 100%;
+  }
   #footer {
     display: flex;
     padding: 1rem 0;

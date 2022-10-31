@@ -159,6 +159,9 @@
 }
 
 @media (max-width: 576px) {
+  body {
+    width: 100%;
+  }
   .allcontent {
     display: block;
     background-color: #efede0;

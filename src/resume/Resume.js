@@ -138,8 +138,10 @@ const Resume = () => {
                   Debugging{" "}
                 </h6>
                 <h6>React JS</h6>
+                <h6>Angular JS</h6>
                 <h6>Node JS</h6>
                 <h6>Express JS</h6>
+                <h6>Redux</h6>
                 <h6>MongoDB</h6>
               </div>
             </div>

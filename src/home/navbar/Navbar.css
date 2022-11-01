@@ -2,6 +2,10 @@
 
 .active {
   color: red;
+  border-bottom: 2px solid #5c6e58;
+}
+.nav-item a {
+  text-decoration: none;
 }
 #navbarNav {
   justify-content: end;

@@ -43,7 +43,7 @@ const portfolio = () => {
                 href="https://countdown-timer-ebon.vercel.app/ "
                 target="_blank"
               >
-                View Website <img src={arrow} alt="" />
+                <span>View Website</span>
               </a>
             </div>
           </div>

@@ -14,7 +14,7 @@ function App() {
       <div className="App">
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Layout />}>
+            <Route path="/" exact element={<Layout />}>
               <Route index element={<Content />} />
               <Route path="portfolio" element={<Portfolio />} />
               <Route path="resume" element={<Resume />} />
@@ -22,15 +22,6 @@ function App() {
             </Route>
           </Routes>
         </BrowserRouter>
-
-        {/* <Navbar />
-        <Content />
-        <Footer />
-        <Navbar />
-        <Sidecard />
-        <Navbar />
-        <Resume />
-        <Footer /> */}
       </div>
     </>
   );

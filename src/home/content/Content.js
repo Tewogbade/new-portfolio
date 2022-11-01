@@ -1,7 +1,6 @@
 import React from "react";
 import tewoPhoto from "../../images/tnew.png";
 import "../content/Content.css";
-import cv from "../../images/resume.pdf";
 import twitter from "../../images/twitter.svg";
 import mail from "../../images/envelope.svg";
 import linkedin from "../../images/linkedin.svg";

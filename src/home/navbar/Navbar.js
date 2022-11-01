@@ -2,9 +2,14 @@ import React from "react";
 import "../navbar/Navbar.css";
 import tewoNavphoto from "../../images/tewonav.png";
 import cv from "../../images/resume.pdf";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
+  const location = useLocation();
+  const { pathname: exactLocation } = location;
+  const checkLocation = exactLocation.split("/");
+  console.log(checkLocation);
+
   return (
     <>
       <nav className="navbar navbar-expand-lg ">
@@ -26,21 +31,31 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+                <Link
+                  className={checkLocation[1] === "" ? "active" : ""}
+                  aria-current="page"
+                  to="/"
+                >
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link " to="/portfolio">
+                <Link
+                  className={checkLocation[1] === "portfolio" ? "active" : ""}
+                  to="/portfolio"
+                >
                   Portfolio
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link " to="/resume">
+                <Link
+                  className={checkLocation[1] === "resume" ? "active" : ""}
+                  to="/resume"
+                >
                   Resume
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item underline">
                 <Link to={cv} target="_blank">
                   <button type="button" class="btn btn-outline-dark">
                     Download CV

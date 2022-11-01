@@ -12,11 +12,9 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg ">
+      <nav className="navbar navbar-expand-lg  ">
         <div className="imagediv container-fluid">
           <img src={tewoNavphoto} className="" alt="" />
-          {/* <img src={logo} className="" alt="" />
-          <h1>TEWO</h1> */}
           <button
             className="navbar-toggler"
             type="button"
@@ -39,7 +37,7 @@ const Navbar = () => {
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item ">
                 <Link
                   className={checkLocation[1] === "portfolio" ? "active" : ""}
                   to="/portfolio"

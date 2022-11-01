@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-around;
   background-color: #8aa899;
-  padding: 28px 10rem;
+  padding: 17px 10rem;
   text-align: start;
 }
 #middle {
@@ -14,8 +14,10 @@
   padding: 0 3rem;
 }
 h6 {
-  color: #f1bc20;
+  font-family: "Andika", sans-serif;
+  color: #ad4328;
   font-size: 20px;
+  font-weight: 600;
 }
 #footer p {
   color: #ffff;
@@ -69,13 +71,16 @@ h6 {
   }
   .mobile h6 {
     text-transform: uppercase;
-    color: #f1bc20;
-    font-size: 15px;
-    font-weight: 600;
+    font-family: "Andika", sans-serif;
+    color: #ad4328;
+    font-size: 18px;
   }
   #footer .mobile p {
     color: #ffff;
     font-size: 16px;
+  }
+  #footer {
+    padding: 8px 0rem;
   }
 }
 
@@ -105,15 +110,17 @@ h6 {
     margin-right: 2rem;
   }
   .mobile h6 {
-    font-family: "Harmattan", sans-serif;
     text-transform: uppercase;
-    color: #f1bc20;
-    font-size: 15px;
-    font-weight: 600;
+    font-family: "Andika", sans-serif;
+    color: #ad4328;
+    font-size: 18px;
   }
   #footer .mobile p {
     font-family: "Harmattan", sans-serif;
     color: #ffff;
-    font-size: 16px;
+    font-size: 17px;
+  }
+  #footer {
+    padding: 8px 0rem;
   }
 }

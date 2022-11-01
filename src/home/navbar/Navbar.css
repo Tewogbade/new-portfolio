@@ -1,11 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap");
 
-.active {
-  color: red;
-  border-bottom: 2px solid #5c6e58;
-}
-.nav-item a {
-  text-decoration: none;
+.navbar {
+  position: fixed;
+  width: 100%;
 }
 #navbarNav {
   justify-content: end;
@@ -16,13 +13,21 @@
 }
 
 .navbar-nav a {
-  color: #333333;
-  font-size: larger;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  font-size: large;
   font-weight: 500;
   margin-left: 1rem;
 }
+.nav-item .active {
+  color: #ad4328;
+  font-size: large;
+  font-weight: 500;
+}
 
 .collapse button {
+  font-weight: 500;
   color: #333333;
   border-color: #333333;
   border-width: 2px;
@@ -30,18 +35,11 @@
   font-weight: 500;
 }
 .navbar {
-  background-color: #efede0;
+  background-color: #f7f7f7;
 }
-@media (max-width: 576px) {
-  .collapse button {
-    border-width: 1px;
-    margin: 0 1rem;
-    font-weight: 400;
-  }
-  .navbar-nav a {
-    font-size: medium;
-    font-weight: 500;
-    margin-left: 1rem;
-    font-weight: 400;
+
+@media (max-width: 990px) {
+  .nav-item {
+    margin: 1.2rem 0;
   }
 }

@@ -20,7 +20,7 @@ const Content = () => {
           <h1> Tewogbade</h1>
           <img className="" src="" alt="" />
           <div className="dfdfd">
-            <h2 className="tyewriter">
+            <div className="tyewriter">
               <Typewriter
                 options={{
                   strings: [
@@ -33,7 +33,7 @@ const Content = () => {
                   loop: true,
                 }}
               />
-            </h2>
+            </div>
           </div>
 
           <div id="socials">

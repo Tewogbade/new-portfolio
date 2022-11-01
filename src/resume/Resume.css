@@ -2,8 +2,10 @@
 .allcontent {
   display: flex;
   background-color: #efede0;
+  padding-top: 4rem;
 }
 .profile {
+  font-family: "Harmattan", sans-serif;
   background-color: #8aa899;
   justify-content: center;
   width: 450px;
@@ -17,23 +19,22 @@
 
 .text h3 {
   display: block;
-  font-family: "Harmattan", sans-serif;
-  font-size: 40px;
+  font-family: "Andika", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
   text-align: center;
-  font-weight: bold;
-  color: #f1bc20;
+  color: #ad4328;
 }
 
 .profile .text p {
-  font-family: "Harmattan", sans-serif;
-  font-size: 25px;
-  font-weight: 600;
-  color: #000000;
+  font-family: "Andika", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .copyright p {
   font-family: "Harmattan", sans-serif;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 400;
   color: #000000;
   padding: 10px 0;
@@ -71,13 +72,13 @@
   margin-left: 3rem;
   width: 100%;
   padding-right: 1rem;
-  border-left: 20px solid #f1bc20;
+  border-left: 20px solid #ad4328;
   background-color: #fff;
 }
 .resume h1 {
-  color: #5c6e58;
   font-family: "Andika", sans-serif;
-  font-size: 45px;
+  color: #ad4328;
+  font-size: 50px;
   font-weight: 700;
   padding-bottom: 1rem;
 }
@@ -116,14 +117,14 @@
 .left h2 {
   font-size: 20px;
   font-weight: 500;
-  color: #f1bc20;
-  font-family: "Harmattan", sans-serif;
+  color: #ad4328;
+  font-family: "Andika", sans-serif;
 }
 .right h3 {
   font-size: 20px;
   font-weight: 500;
-  color: #f1bc20;
-  font-family: "Harmattan", sans-serif;
+  color: #ad4328;
+  font-family: "Andika", sans-serif;
 }
 .right p {
   margin: 0;

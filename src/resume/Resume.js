@@ -63,9 +63,6 @@ const Resume = () => {
               <p>Lagos, Nigeria</p>
               <h6>ND. Architecture</h6>
             </div>
-            <div>
-              <p></p>
-            </div>
           </div>
 
           <div className="pair">

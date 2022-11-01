@@ -3,37 +3,50 @@
 
 .portfolio {
   background-color: #efede0;
-  padding-top: 3rem;
+  padding-top: 4rem;
 }
 .portfolio h1 {
-  color: #5c6e58;
   font-family: "Andika", sans-serif;
+  color: #ad4328;
   font-size: 50px;
   font-weight: 700;
+  padding: 10px 0;
 }
 
 .cards {
+  font-family: "Harmattan", sans-serif;
+  font-size: 1.2rem;
   justify-content: center;
-  display: inline-grid;
+  display: grid;
   grid-template-columns: 30% 30% 30%;
   column-gap: 3rem;
   row-gap: 3rem;
-  margin: 1rem 1rem 4rem;
+  padding: 1rem 1rem 4rem;
 }
 .card a {
+  font-family: "Harmattan", sans-serif;
+  font-size: 1.5rem;
   text-decoration: none;
-  color: #f1bc20;
+  color: #ad4328;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: start;
+  position: static;
+}
+.card-body h4 {
+  font-family: "Andika", sans-serif;
+}
+
+.card:hover {
+  background-color: #e7f8ec;
 }
 a span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
-  color: #5c6e58;
+  color: #ad4328;
 }
 
 a span:after {
@@ -44,11 +57,9 @@ a span:after {
   right: -20px;
   transition: 0.5s;
 }
-
 a:hover span {
   padding-right: 25px;
 }
-
 a:hover span:after {
   opacity: 1;
   right: 0;
@@ -56,12 +67,9 @@ a:hover span:after {
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .cards {
-    justify-content: center;
-    display: inline-grid;
     grid-template-columns: 45% 45%;
     column-gap: 3rem;
     row-gap: 3rem;
-    margin: 1rem 1rem 4rem;
   }
   .card {
     margin-bottom: 4rem;
@@ -77,10 +85,9 @@ a:hover span:after {
   .cards {
     justify-content: center;
     display: block;
-    margin: 1rem 1rem 4rem;
   }
   .card {
-    margin-bottom: 4rem;
+    margin: 0 2rem 4rem;
   }
 }
 
@@ -88,9 +95,8 @@ a:hover span:after {
   .cards {
     justify-content: center;
     display: block;
-    margin: 1rem 1rem 4rem;
   }
   .card {
-    margin-bottom: 2rem;
+    margin: 0 1rem 3rem;
   }
 }

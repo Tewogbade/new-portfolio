@@ -14,6 +14,7 @@ const portfolio = () => {
       <div className="portfolio">
         <h1>PORTFOLIO</h1>
 
+        {/* first card */}
         <div className="cards">
           <div className="card">
             <img src={room} className="card-img-top" alt="..." />
@@ -24,7 +25,7 @@ const portfolio = () => {
               </p>
               <p>HTML, CSS, JavaScript</p>
               <a href="https://room-web.vercel.app/" target="_blank">
-                View Website <img src={arrow} alt="" />{" "}
+                <span>View Website</span>
               </a>
             </div>
           </div>
@@ -59,7 +60,7 @@ const portfolio = () => {
               </p>
               <p>HTML, CSS, Bootstrap </p>
               <a href="https://nasims-project.vercel.app/" target="_blank">
-                View Website <img src={arrow} alt="" />{" "}
+                <span>View Website</span>
               </a>
             </div>
           </div>
@@ -75,7 +76,7 @@ const portfolio = () => {
               </p>
               <p>React JS </p>
               <a href="https://meet-react-eta.vercel.app/" target="_blank">
-                View Website <img src={arrow} alt="" />{" "}
+                <span>View Website</span>
               </a>
             </div>
           </div>
@@ -94,7 +95,7 @@ const portfolio = () => {
                 href="https://new-portfolio-teal-kappa.vercel.app/"
                 target="_blank"
               >
-                View Website <img src={arrow} alt="" />{" "}
+                <span>View Website</span>
               </a>
             </div>
           </div>
@@ -110,7 +111,7 @@ const portfolio = () => {
               </p>
               <p>HTML, CSS, JavaScript </p>
               <a href="#" target="_blank">
-                View Website <img src={arrow} alt="" />{" "}
+                <span>View Website</span>
               </a>
             </div>
           </div>

@@ -4,14 +4,31 @@
   background-color: #efede0;
   padding-top: 4rem;
 }
+
+#fixed {
+  visibility: visible;
+  position: fixed;
+  width: 350px;
+  height: 500px;
+  top: 63px;
+}
+
+#fixed img {
+  height: 200px;
+  width: 200px;
+}
+#fixed .text {
+  padding: 0 15px;
+}
+
 .profile {
+  visibility: hidden;
   font-family: "Harmattan", sans-serif;
   background-color: #8aa899;
   justify-content: center;
   width: 450px;
   height: 800px;
   padding-top: 1rem;
-  position: static;
 }
 .profile img {
   height: 250px;
@@ -38,7 +55,7 @@
   font-size: 15px;
   font-weight: 400;
   color: #000000;
-  padding: 10px 0;
+  padding: 2px 0;
 }
 
 #lasttext p {
@@ -53,9 +70,6 @@
   font-weight: 400;
   color: #000000;
 }
-/* .links a {
-  margin: 0 10px;
-} */
 
 .text .links {
   display: flex;
@@ -176,6 +190,12 @@
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
+  #fixed {
+    position: fixed;
+    width: 293px;
+    height: 500px;
+    top: 63px;
+  }
   .resume {
     margin-left: 20px;
     width: 100%;
@@ -206,7 +226,7 @@
     font-weight: 500;
   }
   .left h2 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
   }
   .left h3 {
@@ -230,7 +250,11 @@
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
+  #fixed {
+    display: none;
+  }
   .profile {
+    visibility: visible;
     padding-right: 0;
     margin-right: 0;
     width: 100%;
@@ -294,7 +318,11 @@
 }
 
 @media (max-width: 576px) {
+  #fixed {
+    display: none;
+  }
   .profile {
+    visibility: visible;
     padding-right: 0;
     margin-right: 0;
     width: 100%;

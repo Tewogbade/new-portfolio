@@ -21,24 +21,6 @@ import { SiRedux } from "react-icons/si";
 const Resume = () => {
   return (
     <>
-      <div className="profile" id="fixed">
-        <img src={tewocardPhoto} alt="" />
-        <div className="text">
-          <h3> Tewogbade S. Fatai</h3>
-          <p> Web Developer | Architect</p>
-          <div id="lasttext">
-            <p>
-              A Web Developer and an Architect with strong analytical,
-              management and communication skills, who continuously seeks
-              opportunities to expand his knowledge and develop hard skills in a
-              dynamic and professional environment.
-            </p>
-          </div>
-          <div className="copyright">
-            <p>©2022 Tewogbade Tella.</p>
-          </div>
-        </div>
-      </div>
       <div className="allcontent">
         <div className="profile">
           <img src={tewocardPhoto} alt="" />

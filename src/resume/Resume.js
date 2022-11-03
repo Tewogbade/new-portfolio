@@ -5,12 +5,24 @@ import twitter from "../images/twitter.svg";
 import mail from "../images/envelope.svg";
 import linkedin from "../images/linkedin.svg";
 import github from "../images/github.svg";
+import {
+  FaBootstrap,
+  FaHtml5,
+  FaReact,
+  FaGithub,
+  FaAngular,
+  FaNodeJs,
+} from "react-icons/fa";
+import { DiCss3, DiJqueryLogo, DiResponsive } from "react-icons/di";
+import { IoLogoJavascript } from "react-icons/io";
+import { VscDebugAll } from "react-icons/vsc";
+import { SiRedux } from "react-icons/si";
 
 const Resume = () => {
   return (
     <>
       <div className="allcontent">
-        <div className="profile">
+        <div className="profile" id="prf">
           <img src={tewocardPhoto} alt="" />
           <div className="text">
             <h3> Tewogbade S. Fatai</h3>
@@ -50,7 +62,7 @@ const Resume = () => {
           <h1> RESUME</h1>
           <div className="pair">
             <div className="left">
-              <h2>EDUCATION-</h2>
+              <h2>EDUCATION</h2>
             </div>
             <div className="right">
               <h4>Tech Accent Creatives</h4>
@@ -67,7 +79,7 @@ const Resume = () => {
 
           <div className="pair">
             <div className="left">
-              <h2>EXPERIENCE-</h2>
+              <h2>EXPERIENCE</h2>
             </div>
             <div className="right">
               <h4>
@@ -107,35 +119,118 @@ const Resume = () => {
           </div>
           <div className="pair">
             <div className="left">
-              <h2>SKILLS-</h2>
+              <h2>SKILLS</h2>
             </div>
             <div className="right">
               <div className="skills">
-                <h6>HTML/CSS</h6>
-                <h6>
-                  JavaScript/ <br />
-                  jQuery
-                </h6>
-                <h6>Boostrap </h6>
-                <h6>
-                  Responsive <br />
-                  Design
-                </h6>
-                <h6>
-                  Version <br />
-                  Control/Git
-                </h6>
-                <h6>
-                  Testing/
-                  <br />
-                  Debugging{" "}
-                </h6>
-                <h6>React JS</h6>
-                <h6>Angular JS</h6>
-                <h6>Node JS</h6>
-                <h6>Express JS</h6>
-                <h6>Redux</h6>
-                <h6>MongoDB</h6>
+                <div className="skillpair">
+                  <p>HTML</p>
+                  <FaHtml5
+                    style={{
+                      width: "100px",
+                      fontSize: "4rem",
+                    }}
+                  />
+                </div>
+                <div className="skillpair">
+                  <p>CSS</p>
+                  <DiCss3
+                    style={{
+                      width: "100px",
+                      fontSize: "4rem",
+                    }}
+                  />
+                </div>
+                <div className="skillpair">
+                  <p>Boostrap </p>
+                  <FaBootstrap
+                    style={{
+                      width: "100px",
+                      fontSize: "4rem",
+                    }}
+                  />
+                </div>
+                <div className="skillpair">
+                  <p>JavaScript </p>
+                  <IoLogoJavascript
+                    style={{
+                      width: "100px",
+                      fontSize: "4rem",
+                    }}
+                  />
+                </div>
+                <div className="skillpair">
+                  <p>Jquery </p>
+                  <DiJqueryLogo
+                    style={{
+                      width: "100px",
+                      fontSize: "4rem",
+                    }}
+                  />
+                </div>
+                <div className="skillpair">
+                  <p>React </p>
+                  <FaReact
+                    style={{
+                      width: "100px",
+                      fontSize: "4rem",
+                    }}
+                  />
+                </div>
+                <div className="skillpair">
+                  <p>Responsive Design </p>
+                  <DiResponsive
+                    style={{
+                      width: "100px",
+                      fontSize: "4rem",
+                    }}
+                  />
+                </div>
+                <div className="skillpair">
+                  <p>Git</p>
+                  <FaGithub
+                    style={{
+                      width: "100px",
+                      fontSize: "4rem",
+                    }}
+                  />
+                </div>
+                <div className="skillpair">
+                  <p>Debugging</p>
+                  <VscDebugAll
+                    style={{
+                      width: "100px",
+                      fontSize: "4rem",
+                    }}
+                  />
+                </div>{" "}
+                <div className="skillpair">
+                  <p>Angular JS</p>
+                  <FaAngular
+                    style={{
+                      width: "100px",
+                      fontSize: "4rem",
+                    }}
+                  />
+                </div>
+                <div className="skillpair">
+                  <p>Node JS</p>
+                  <FaNodeJs
+                    style={{
+                      width: "100px",
+                      fontSize: "4rem",
+                    }}
+                  />
+                </div>
+                <div className="skillpair">
+                  <p>Redux</p>
+                  <SiRedux
+                    style={{
+                      width: "100px",
+                      fontSize: "4rem",
+                    }}
+                  />
+                </div>
               </div>
             </div>
             <div>

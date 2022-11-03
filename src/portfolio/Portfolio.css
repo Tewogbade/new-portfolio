@@ -30,7 +30,7 @@
   color: #ad4328;
 }
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: start;
   position: static;
 }
@@ -38,8 +38,10 @@
   font-family: "Andika", sans-serif;
 }
 
-.card:hover {
-  background-color: #e7f8ec;
+.card:hover span:after {
+  box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: start;
+  position: static;
 }
 a span {
   cursor: pointer;

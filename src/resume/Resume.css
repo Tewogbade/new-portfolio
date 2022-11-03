@@ -119,13 +119,16 @@
   column-gap: 20px;
   row-gap: 3rem;
   justify-content: center;
+  padding-bottom: 2rem;
 }
 .skillpair {
-  background-color: #f4f2e9;
+  background-color: #fff;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   justify-content: center;
   height: 120px;
   width: 100px;
+  /* border: #8aa899 solid 2px; */
+  border-radius: 0 15px;
 }
 .skillpair p {
   text-align: center;

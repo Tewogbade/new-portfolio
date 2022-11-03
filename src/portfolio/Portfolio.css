@@ -51,7 +51,7 @@ a span {
   color: #ad4328;
 }
 
-a span:after {
+.card span:after {
   content: "\00bb";
   position: absolute;
   opacity: 0;
@@ -59,10 +59,10 @@ a span:after {
   right: -20px;
   transition: 0.5s;
 }
-a:hover span {
+.card:hover span {
   padding-right: 25px;
 }
-a:hover span:after {
+.card:hover span:after {
   opacity: 1;
   right: 0;
 }

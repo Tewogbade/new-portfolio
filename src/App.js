@@ -1,7 +1,5 @@
 import "./App.css";
 import Content from "./home/content/Content";
-
-// import Sidecard from "./portfolio/sidecard/Sidecard";
 import Portfolio from "./portfolio/Portfolio";
 import Resume from "./resume/Resume";
 import { BrowserRouter, Routes, Route } from "react-router-dom";

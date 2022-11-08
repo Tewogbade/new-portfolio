@@ -6,7 +6,7 @@ import nasim from "../images/nasim.jpg";
 import meet from "../images/meet.PNG";
 import portfolio2 from "../images/portfolio2.PNG";
 import portfolio1 from "../images/portfolio.PNG";
-import arrow from "../images/arrow.svg";
+import audiophile from "../images/audiophile.png";
 
 const portfolio = () => {
   return (
@@ -14,8 +14,23 @@ const portfolio = () => {
       <div className="portfolio">
         <h1>PORTFOLIO</h1>
 
-        {/* first card */}
         <div className="cards">
+          {/* new card */}
+          <div className="card">
+            <img src={audiophile} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h4 className="card-text">AUDIOPHILE</h4>
+              <p>
+                <i>E-commerce</i>
+              </p>
+              <p>React Js</p>
+              <a href="https://audiophile-dun-beta.vercel.app/" target="_blank">
+                <span>View Website</span>
+              </a>
+            </div>
+          </div>
+
+          {/* first card */}
           <div className="card">
             <img src={room} className="card-img-top" alt="..." />
             <div className="card-body">
@@ -65,7 +80,7 @@ const portfolio = () => {
             </div>
           </div>
 
-          {/* fourt card */}
+          {/* fourth card */}
 
           <div className="card">
             <img src={meet} className="card-img-top" alt="..." />
@@ -81,8 +96,25 @@ const portfolio = () => {
             </div>
           </div>
 
-          {/* first card */}
+          {/* fifth card */}
 
+          <div className="card">
+            <img src={portfolio2} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h4 className="card-text">GUESS MY NUMBER</h4>
+              <p>
+                <i>Game</i>
+              </p>
+              <p>HTML, CSS, JavaScript </p>
+              <a
+                href="https://guess-my-number-game-eight.vercel.app/"
+                target="_blank"
+              >
+                <span>View Website</span>
+              </a>
+            </div>
+          </div>
+          {/* sixth card */}
           <div className="card">
             <img src={portfolio1} className="card-img-top" alt="..." />
             <div className="card-body">
@@ -95,22 +127,6 @@ const portfolio = () => {
                 href="https://new-portfolio-teal-kappa.vercel.app/"
                 target="_blank"
               >
-                <span>View Website</span>
-              </a>
-            </div>
-          </div>
-
-          {/* sixth card */}
-
-          <div className="card">
-            <img src={portfolio2} className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h4 className="card-text">GUESS MY NUMBER</h4>
-              <p>
-                <i>Game</i>
-              </p>
-              <p>HTML, CSS, JavaScript </p>
-              <a href="#" target="_blank">
                 <span>View Website</span>
               </a>
             </div>

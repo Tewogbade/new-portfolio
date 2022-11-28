@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-around;
   background-color: #8aa899;
-  padding: 2rem 10rem;
+  padding: 1.5rem 10rem;
   text-align: start;
 }
 #middle {
@@ -29,17 +29,17 @@ h6 {
 
 @media (min-width: 768px) and (max-width: 1199px) {
   #footer {
-    padding: 1.5rem 10rem;
+    padding: 17px 10rem;
   }
   h6 {
     font-family: "Andika", sans-serif;
     color: #ad4328;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 600;
   }
   #footer p {
     color: #ffff;
-    font-size: 18px;
+    font-size: 15px;
   }
   .mobile {
     display: none;
@@ -48,7 +48,7 @@ h6 {
 @media (min-width: 576px) and (max-width: 768px) {
   #footer {
     display: flex;
-    padding: 1.5rem 0;
+    padding: 15px 0;
     text-align: start;
     justify-content: start;
   }

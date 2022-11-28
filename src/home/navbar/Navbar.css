@@ -3,6 +3,7 @@
 .navbar {
   position: fixed;
   width: 100%;
+  height: 8vh;
 }
 #navbarNav {
   justify-content: end;

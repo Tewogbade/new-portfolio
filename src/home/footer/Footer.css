@@ -16,12 +16,12 @@
 h6 {
   font-family: "Andika", sans-serif;
   color: #ad4328;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
 }
 #footer p {
   color: #ffff;
-  font-size: 25px;
+  font-size: 20px;
 }
 .mobile {
   display: none;
@@ -34,12 +34,12 @@ h6 {
   h6 {
     font-family: "Andika", sans-serif;
     color: #ad4328;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 600;
   }
   #footer p {
     color: #ffff;
-    font-size: 15px;
+    font-size: 18px;
   }
   .mobile {
     display: none;

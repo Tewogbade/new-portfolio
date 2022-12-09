@@ -10,13 +10,12 @@ import {
   FaHtml5,
   FaReact,
   FaGithub,
-  FaAngular,
   FaNodeJs,
 } from "react-icons/fa";
 import { DiCss3, DiJqueryLogo, DiResponsive } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import { VscDebugAll } from "react-icons/vsc";
-import { SiRedux } from "react-icons/si";
+import { SiRedux, SiExpress, SiMongodb } from "react-icons/si";
 
 const Resume = () => {
   return (
@@ -89,14 +88,14 @@ const Resume = () => {
               <h6>
                 Assist in writing well designed, testable, efficient code by
                 using best software development practices. Assist in creating
-                website layout/user interface by using standard HTML/CSS
-                practices. Assist in integrating data from various back-end
-                services and databases.
+                website layout/user interface by using standard HTML/CSS and
+                Javascript practices . Assist in integrating data from various
+                back-end services and databases using NodeJs and ExpressJS.
               </h6>
               <h4>
                 Lead Architect <span> Atrium Architecture and Designs</span>
               </h4>
-              <p> July 2022 - till date</p>
+              <p> June 2020 - till date</p>
               <h6>
                 Design building plans that fits all construction requirements
                 which using various architectural software; AutoCAD
@@ -107,7 +106,7 @@ const Resume = () => {
               <h4>
                 Design Architect <span> Luca Visage – Scavolini</span>
               </h4>
-              <p> June 202 - till date</p>
+              <p> July 2018 - May 2020</p>
               <h6>
                 Successfully managed high-end kitchen showroom and also carried
                 different phases of sales transactions. Assisted in creating a
@@ -159,24 +158,7 @@ const Resume = () => {
                     }}
                   />
                 </div>
-                <div className="skillpair">
-                  <p>Jquery </p>
-                  <DiJqueryLogo
-                    style={{
-                      width: "100px",
-                      fontSize: "4rem",
-                    }}
-                  />
-                </div>
-                <div className="skillpair">
-                  <p>React </p>
-                  <FaReact
-                    style={{
-                      width: "100px",
-                      fontSize: "4rem",
-                    }}
-                  />
-                </div>
+
                 <div className="skillpair">
                   <p>Responsive Design </p>
                   <DiResponsive
@@ -203,10 +185,28 @@ const Resume = () => {
                       fontSize: "4rem",
                     }}
                   />
-                </div>{" "}
+                </div>
                 <div className="skillpair">
-                  <p>Angular JS</p>
-                  <FaAngular
+                  <p>React </p>
+                  <FaReact
+                    style={{
+                      width: "100px",
+                      fontSize: "4rem",
+                    }}
+                  />
+                </div>
+                <div className="skillpair">
+                  <p>Redux</p>
+                  <SiRedux
+                    style={{
+                      width: "100px",
+                      fontSize: "4rem",
+                    }}
+                  />
+                </div>
+                <div className="skillpair">
+                  <p>Express JS</p>
+                  <SiExpress
                     style={{
                       width: "100px",
                       fontSize: "4rem",
@@ -223,8 +223,8 @@ const Resume = () => {
                   />
                 </div>
                 <div className="skillpair">
-                  <p>Redux</p>
-                  <SiRedux
+                  <p>MongoDB</p>
+                  <SiMongodb
                     style={{
                       width: "100px",
                       fontSize: "4rem",

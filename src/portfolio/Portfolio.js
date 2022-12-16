@@ -4,6 +4,7 @@ import room from "../images/room.jpg";
 import timer from "../images/timer.jpg";
 import nasim from "../images/nasim.jpg";
 import meet from "../images/meet.PNG";
+import todo from "../images/todo.png";
 import portfolio2 from "../images/portfolio2.PNG";
 import portfolio1 from "../images/portfolio.PNG";
 import audiophile from "../images/audiophile.png";
@@ -25,6 +26,23 @@ const portfolio = () => {
               </p>
               <p>React Js</p>
               <a href="https://audiophile-dun-beta.vercel.app/" target="_blank">
+                <span>View Website</span>
+              </a>
+            </div>
+          </div>
+          {/* second*/}
+          <div className="card">
+            <img src={todo} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h4 className="card-text">TODO LIST</h4>
+              <p>
+                <i>Personal app</i>
+              </p>
+              <p>HTML, CSS, JavaScript</p>
+              <a
+                href="https://todo-list-two-wheat-33.vercel.app/"
+                target="_blank"
+              >
                 <span>View Website</span>
               </a>
             </div>
